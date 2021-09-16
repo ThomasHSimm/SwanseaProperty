@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import geopandas as gpd
-import folium
+
     
 st.title('House details in Swansea, UK')
 whattoplotBIG=['Price','Predicted Price','Predicted Price Difference']
