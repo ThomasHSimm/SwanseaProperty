@@ -1,4 +1,5 @@
 import streamlit as st
+!pip install streamlit-folium
 from streamlit_folium import folium_static
 import matplotlib.pyplot as plt
 import numpy as np
