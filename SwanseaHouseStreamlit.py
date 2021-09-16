@@ -54,9 +54,7 @@ def plotmap(whattopplot):
     columns=['GEOGRAPHYCODE',whattopplot],
     key_on= "feature.properties.GEOGRAPHYCODE",
     fill_color='RdYlBu',#PuBuGn YlGn PuBuGn YlGnBu
-    fill_opacity=0.7,
-    line_opacity=0.2
-    )
+    fill_opacity=0.7)
     
     #get rid of legend
     for key in choropleth._children:
